@@ -1,0 +1,26 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local error captures
+*.log
+*.err
+logs/
+
+# Local tooling and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.local
+*.tmp
